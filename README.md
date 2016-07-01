@@ -14,32 +14,32 @@ Requirements:
 * the LAME encoder should be used with reasonable standard settings (e.g. quality based encoding with quality level "good")
 
 ## Linux build
-libmp3lame.a static library on linux using gcc 4.8.4. The prebuild libmp3lame.a is already kept inside include directory.
-steps for making static library are fairly straight forward i.e.
+libmp3lame.a static library on Linux using gcc 4.8.4. The prebuild libmp3lame.a is already kept inside include directory.
+Steps for making static library are fairly straight forward i.e.
 * cd lame-3.99.x
 * ./configure --prefix=/desired/path/
 * make
 * make install
 
-For Building the project on linux any distribution above gcc 4.8.x can be used.
-lame_task project can be build using cmake. To bulid the project on linux follow the steps
+For Building the project on Linux any distribution above gcc 4.8.x can be used.
+lame_task project can be build using cmake. To build the project on Linux follow the steps
 * cd project_dir
 * cmake . && make
 
 ## Window build
-libmp3lame.lib static library was bulid using visual studio. just open the solution inside lame/vc_solution using visual studio and build it.
+libmp3lame.lib static library was build using visual studio. just open the solution inside lame/vc_solution using visual studio and build it.
 
-For Building the project on windows using cmake qt creater or visual studio can be used.
-building lame_task on windows also fairly straight forward. (I used the following method)
-* open lame_task camke project using qt creator.
+For Building the project on windows using cmake qt creator or visual studio can be used.
+Building lame_task on windows also fairly straight forward. (I used the following method)
+* Open lame_task camke project using qt creator.
 * build the project and run.
 
-# important notes
-* I have used C++11 threads insted of pthread as it more convenient.
+# Important notes
+* I have used C++11 threads instead of pthread as it more convenient.
 * Complete support for converting Wav to Mp3 will take quite an effort.
 * So support for only 8 and 16 bit is implemented.
 * The quality level is set at 5 i.e. good
-* if more time is invested on the task, it can be made much more performent.
+* If more time is invested on the task, it can be made much more batter.
 
 
 
